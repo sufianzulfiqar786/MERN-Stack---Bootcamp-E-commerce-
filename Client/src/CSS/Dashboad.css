@@ -1,0 +1,15 @@
+.dashboardIcons i{
+    margin-left: 37%;
+    margin-top: 20%;
+font-size: 33px;
+}
+
+.dashboadBody{
+    height: 90vh;
+    box-shadow: 5px 0px 10px -5px rgba(136, 136, 136, 0.432);
+    /* background-color: red; */
+}
+
+body{
+    overflow-x: hidden;
+}

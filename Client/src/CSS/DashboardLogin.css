@@ -1,0 +1,323 @@
+.btn-close{
+    display: none;
+}
+
+
+
+.Register{
+    transition: all 0.7s;
+}
+
+.Register:hover{
+    color: rgba(255, 72, 0, 0.979);
+    transform: scale(1.2)
+}
+
+.fa-eye, .fa-eye-slash{
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+
+
+@media (min-width:1003px) and (max-width:100003px){
+
+
+    .RegisterPasswordPositionUpper{
+        position: relative;
+       
+    }
+    
+    .RegisterPasswordPositionBottom{
+        position: absolute;
+        margin-left: 87%;
+        margin-top: -17%;
+    }
+
+    .loginPasswordPositionUpper{
+        position: relative;
+       
+    }
+    
+    .loginPasswordPositionBottom{
+        position: absolute;
+        margin-left: 93.7%;
+        margin-top: -8%;
+    }
+
+    .loginSytemBtn{
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        transition: all 0.7s;
+    }
+    
+    .loginSytemBtn:hover{
+        background-color: rgba(255, 72, 0, 0.979) ;
+        transform: rotate(5deg);
+        color: white;
+    }
+
+    .iconFontRow{
+        margin-left: -385px;
+    }
+    
+    .row1stloginSystemBody{
+        margin-top: 5.5%;
+        /* background-color: red; */
+        width: auto;
+        height: 80vh;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .col1strow1stloginSystemBody{
+        background-color: #F60 ; 
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;
+    }
+    
+    .col1strow1stloginSystemBody img{
+        width: 170px;
+        height: 170px;
+      border: solid 1px #555;
+      background-color: #eed;
+      box-shadow: 5px -5px  rgba(0,0,0,0.6);
+      /* -moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+      -webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+      -o-box-shadow: 10px -10px  rgba(0,0,0,0.6); */
+      border-radius:100%;
+    }
+    
+    .col2ndrow1stloginSystemBody{
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;
+    }
+    
+    .registerInput input{
+        width: 100%;
+        height: 50px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        transition: all 0.1s;
+    }
+    
+    .registerInput input:focus{
+      
+        border-bottom: 3px solid #555;
+        outline: 0;
+        
+    }
+    
+    .registerInput input::placeholder{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:470px) and (max-width:1003px){
+
+
+    .RegisterPasswordPositionUpper{
+        position: relative;
+       
+    }
+    
+    .RegisterPasswordPositionBottom{
+        position: absolute;
+        margin-left: 88%;
+        margin-top: -15%;
+    }
+
+
+    .loginPasswordPositionUpper{
+        position: relative;
+       
+    }
+    
+    .loginPasswordPositionBottom{
+        position: absolute;
+        margin-left: 90%;
+        margin-top: -13%;
+    }
+
+    .loginSytemBtn{
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        transition: all 0.7s;
+    }
+    
+    .loginSytemBtn:hover{
+        background-color: rgba(255, 72, 0, 0.979) ;
+        transform: rotate(5deg);
+        color: white;
+    }
+
+    .iconFontRow{
+        margin-left: -89%;
+        margin-bottom: 8%;
+    }
+    
+    .row1stloginSystemBody{
+        margin-top: 5%;
+        margin-bottom: 5.5%;
+        /* background-color: red; */
+        width: auto;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .col1strow1stloginSystemBody{
+        background-color: #F60 ; 
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;
+    }
+    
+    .col1strow1stloginSystemBody img{
+        width: 170px;
+        height: 170px;
+      border: solid 1px #555;
+      background-color: #eed;
+      box-shadow: 5px -5px  rgba(0,0,0,0.6);
+      /* -moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+      -webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+      -o-box-shadow: 10px -10px  rgba(0,0,0,0.6); */
+      border-radius:100%;
+    }
+    
+    .col2ndrow1stloginSystemBody{
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;
+    }
+    
+    .registerInput input{
+        width: 100%;
+        height: 50px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        transition: all 0.1s;
+    }
+    
+    .registerInput input:focus{
+      
+        border-bottom: 3px solid #555;
+        outline: 0;
+        
+    }
+    
+    .registerInput input::placeholder{
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:470px){
+
+    .RegisterPasswordPositionUpper{
+        position: relative;
+       
+    }
+    
+    .RegisterPasswordPositionBottom{
+        position: absolute;
+        margin-left: 88%;
+        margin-top: -15.5%;
+    }
+
+    .loginPasswordPositionUpper{
+        position: relative;
+       
+    }
+    
+    .loginPasswordPositionBottom{
+        position: absolute;
+        margin-left: 88%;
+        margin-top: -15%;
+    }
+
+    .loginSytemBtn{
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        transition: all 0.7s;
+    }
+    
+    .loginSytemBtn:hover{
+        background-color: rgba(255, 72, 0, 0.979) ;
+        transform: rotate(5deg);
+        color: white;
+    }
+
+    .iconFontRow{
+        margin-left: -94%;
+        margin-bottom: 6%;
+    }
+    
+    .row1stloginSystemBody{
+        overflow: hidden;
+        /* margin-top: 5%;
+        margin-bottom: 5.5%; */
+        /* background-color: red; */
+        width: auto;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    .col1strow1stloginSystemBody{
+        background-color: #F60 ; 
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;
+    }
+    
+    .col1strow1stloginSystemBody img{
+        width: 170px;
+        height: 170px;
+      border: solid 1px #555;
+      background-color: #eed;
+      box-shadow: 5px -5px  rgba(0,0,0,0.6);
+      /* -moz-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+      -webkit-box-shadow: 10px -10px  rgba(0,0,0,0.6);
+      -o-box-shadow: 10px -10px  rgba(0,0,0,0.6); */
+      border-radius:100%;
+    }
+    
+    .col2ndrow1stloginSystemBody{
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-direction: column;
+    }
+    
+    .registerInput input{
+        width: 100%;
+        height: 50px;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        transition: all 0.1s;
+    }
+    
+    .registerInput input:focus{
+      
+        border-bottom: 3px solid #555;
+        outline: 0;
+        
+    }
+    
+    .registerInput input::placeholder{
+        font-size: 20px;
+    }
+
+}
